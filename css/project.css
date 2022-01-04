@@ -1,0 +1,150 @@
+.wheels{
+
+  text-align: center;
+  
+  
+  background-repeat: no-repeat;
+  background: linear-gradient(0deg, rgb(18 16 17), rgb(0 0 0 / 82%)), url(assets/roa050120dpt-go-betterpics-02-1589997484.png);
+  background-size: cover;
+  color: aliceblue;
+
+
+  
+
+}
+.logo{
+  margin-top: 200px;
+}
+.purchase{
+  height: 62px;
+  width: 280px;
+  border-radius: 30px;
+  background-color: red;
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: x-large;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Sky Styling */
+.sky {
+  width: 100vw;
+  height: 35vh;
+  /* background-image: url(assets/sky.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+/* Tree Styling and positioning */
+.tree {
+  height: 100vh;
+  /* background-image: url(assets/tree-removebg-preview\ \(1\).png); */
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+/* Track Styling and positioning */
+.track {
+  background-image: url(../assets/track.jpeg);
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0px;
+  width: 1000vw;
+  height: 20vh;
+  animation: trackanimation 6s linear infinite;
+}
+
+/* Car Styling and positioning */
+.car {
+  background-image: url(../assets/car-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 17rem;
+  height: 4.699rem;
+  position: absolute;
+  bottom: 77px;
+  left: 396px;
+}
+
+/* Wheel's Styling and positioning */
+.wheel {
+  position: absolute;
+  animation: wheelanimation linear .6s infinite;
+}
+.wheel1 {
+  background-image: url(../assets/wheel1-removebg-preview.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 49px;
+  bottom: 71px;
+  left: 570px;
+}
+.wheel2 {
+  background-image: url(../assets/wheel2-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 44px;
+  bottom: 77px;
+  left: 433px;
+}
+
+/* Rotation of the wheels */
+@keyframes wheelanimation{
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Moving the track backwards */
+@keyframes trackanimation {
+  100% {
+      transform: translate(-500vw);
+  }
+}
+
+.categories{
+  text-align: center;
+  margin-top: 270px;
+}
+.smallbtn{
+  height: 43px;
+    width: 144px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+.hugecar{
+  margin-top: 50px;
+  text-align: center;
+}
+.hugecar img{
+
+width: 1377px;
+}
+.lastsec{
+  margin-top: 50ps;
+  text-align: center;
+  background-color: red;
+  color: antiquewhite;
+}
+.lastsec button{
+  height: 42px;
+  width: 165px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}

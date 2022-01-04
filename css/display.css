@@ -1,0 +1,76 @@
+.white{
+    
+    padding: 28px;
+    color: white;
+    overflow: hidden;
+    
+    
+    background: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+nav ul{
+    float: right;
+}
+
+nav img{
+    width: 238px;
+}
+.scroll{
+    
+    background-color: #000000fc;
+    
+   
+  }
+
+.bike1{
+    background-image: url(../assets/bike2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 290px;
+    
+}
+
+.paragraph{
+    padding: 75px;
+}
+.paragraph h6{
+    color: red;
+    font-size: 30px;
+}
+.paragraph h1{
+    font-size: 65px;
+    
+}
+.bike3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+.bike3 h3{
+    color: red;
+}
+.bike3 h1{
+    font-size: 60px;
+}
+
+.bike3 img{
+    margin-left: 29%;
+
+}
+.carousel-indicators button{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    
+}
+

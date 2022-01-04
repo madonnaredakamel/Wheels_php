@@ -1,0 +1,31 @@
+
+    .motor1{
+        background-image: url(../assets/motor1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 290px;
+        
+    }
+
+    .feature{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .feature h1{
+        font-size: 60px;
+    }
+    
+
+   
+   
+
+    #owl-demo .item{
+        margin: 3px;
+      }
+      #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
